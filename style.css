@@ -12,8 +12,8 @@
 }
 
 :root {
-    --colorAlpha: #EFECE9;
-    --colorBeta: #253343;
+    --colorAlpha: #E8EEF1;
+    --colorBeta: #1E3D58;
     --colorSnow: #ffffff;
 }
 
@@ -44,30 +44,34 @@ body {
 
 .header .logo {
     align-self: center;
+    font-size: 30px;
 }
+
 
 .header .menu {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 400px 200px 200px;
     align-items: center;
     gap: 20px;
 }
 
 .header ul {
     list-style-type: none;
-    display: flex;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
 }
 
 .sidebar {
     grid-row: 1 / 4;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 100px;
+    grid-template-rows: 350px 1fr auto;
+    gap: 80px;
 }
 
 .searchBox {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto;
     align-items: center;
     background-color: var(--colorSnow);
     border-radius: 2rem;
@@ -76,7 +80,7 @@ body {
 }
 
 .searchBox>input {
-    padding: 20px 0px;
+    padding: 20px 10px;
     font-size: 1rem;
     font-family: inherit;
     border: 0px solid transparent;
@@ -95,20 +99,30 @@ body {
     gap: 20px;
     padding: 3rem;
     border-radius: 0px 30px 30px 0px;
-    background-color: var(--colorSnow);
+    background-color: var(--colorBeta);
+    color: var(--colorSnow);
+}
+
+img, svg {
+    pointer-events: none;
 }
 
 .user--box img {
     height: 150px;
-    /* width: 200px; */
     border-radius: 50% ;
 }
 
 .user--nav {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+    display: grid;
+    gap: 30px;
     padding: 0px 20px 0px 50px;
+    font-weight: 500;
+}
+.nav {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+    gap: 10px;
 }
 .credit {
     padding: 0px 20px 0px 50px;
@@ -116,4 +130,15 @@ body {
 
 .section--title {
     font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.search--icon svg,
+.b--icon img {
+    height: 30px;
+    width: 30px;
+}
+
+.search--icon svg {
+    fill: grey;
 }
