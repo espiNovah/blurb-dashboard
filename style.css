@@ -67,7 +67,8 @@ body {
 .sidebar {
     grid-row: 1 / 4;
     display: grid;
-    grid-template-rows: 350px 1fr auto;
+    grid-template-rows: 350px 300px auto;
+    
     gap: 80px;
 }
 
@@ -144,4 +145,47 @@ img, svg {
 .search--icon svg {
     padding-top: 5px;
     fill: grey;
+}
+.history--items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    grid-auto-rows: 200px;
+    gap: 100px 20px;
+    margin-top: 70px;
+}
+
+.h--item {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 200px;
+    gap: 20px;
+    padding: 40px;
+    border-radius: 20px;
+    position: relative;
+    color: var(--colorAlpha);
+    font-weight: 500;
+    background-color: #1E3D58;
+}
+.item--cover {
+    position: relative;
+    border-radius: 20px;
+    bottom: 75px;
+    /* background-color: var(--colorSnow); */
+}
+
+.item--cover img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 16px 16px 0px ;
+}
+
+.item--details {
+    display: grid;
+    grid-template-rows: 70px 30px;
+    margin-left: 20px;
+}
+
+p.book--title {
+    font-size: 1.2rem;
+    height: 20px;
 }
