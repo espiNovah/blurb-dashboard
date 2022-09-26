@@ -40,6 +40,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin-top: 10px;
+    gap: 20px;
+
 }
 
 .header .logo {
@@ -140,5 +142,6 @@ img, svg {
 }
 
 .search--icon svg {
+    padding-top: 5px;
     fill: grey;
 }
