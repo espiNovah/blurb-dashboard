@@ -133,11 +133,18 @@ svg {
 
 .credit {
     padding: 0px 20px 0px 50px;
+    line-height: 1.3rem;
 }
 .credit a {
         color: var(--colorBeta);
-        font-size: 30px;
+        /* font-size: 1.2rem; */
         text-decoration: none;
+}
+.credit a:hover {
+    text-decoration: underline;
+}
+.credit i {
+    font-size: 1.6rem;
 }
 
 .section--title {
@@ -195,6 +202,10 @@ svg {
     margin-left: 5px;
 }
 
+progress {
+    width: 100%;
+}
+
 p.book--title {
     font-size: 1.2rem;
     height: 20px;
@@ -210,6 +221,7 @@ p.book--title {
     padding: 50px;
     border-radius: 30px;
     background-color: var(--colorSnow);
+    box-shadow: 1px 1px 15px #1e3d58;
 }
 
 .new--title {
@@ -263,9 +275,11 @@ p.book--title {
 
 .fame--list {
     display: grid;
-    gap: 20px;
+    gap: 40px;
+    grid-template-rows: 30px repeat(4, 60px);
+    height: 430px;
     padding: 50px;
-    color: white;
+    color: var(--colorSnow);
     border-radius: 30px 0px 0px 30px;
     background-color: black;
 }
