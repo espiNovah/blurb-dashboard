@@ -1,12 +1,10 @@
+![blurb-logo](https://user-images.githubusercontent.com/81432480/192495792-f12e7568-5c03-44d4-b06b-f4751ed977d1.png)
 
 # Blurb Dashboard
 
-Readers are leaders! 
+Blurb dashboard helps you manage all your favorite e-Books in one place. 
 
-Now here's the UI of your favorite library!
-
-
-Packed with millions of books. Blurb dashboard helps you manage all your favorite e-Books in one place. 
+This app is packed with millions of books and comes with functionalities that will help you cultivate a lifetime reading habit
 
 
 ## Live demo
