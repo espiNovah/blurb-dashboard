@@ -12,6 +12,9 @@ Packed with millions of books. Blurb dashboard helps you manage all your favorit
 ## Live demo
 https://espinovah.github.io/blurb-dashboard
 
+![blurb-dashboard](https://user-images.githubusercontent.com/81432480/192494489-b6eeaa91-2b07-4182-8867-7ccd36cc32c5.png)
+
+
 
 ## Built With
 
