@@ -134,6 +134,11 @@ svg {
 .credit {
     padding: 0px 20px 0px 50px;
 }
+.credit a {
+        color: var(--colorBeta);
+        font-size: 30px;
+        text-decoration: none;
+}
 
 .section--title {
     font-weight: 500;
