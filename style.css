@@ -52,6 +52,7 @@ body {
     grid-template-columns: 1fr 2fr;
     margin-top: 10px;
     gap: 20px;
+    font-weight: 500;
 }
 
 .header .logo {
@@ -269,7 +270,7 @@ p.book--title {
 }
 
 .n-author {
-    font-size: .7rem;
+    font-size: .9rem;
 }
 
 .n-category {
