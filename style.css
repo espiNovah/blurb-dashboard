@@ -39,11 +39,12 @@ body {
 .sidebar a {
     text-decoration: none;
     color: inherit;
+    transition: all 0.3s;
 }
 
 .header a:hover,
 .sidebar a:hover {
-    text-decoration: underline;
+    color: var(--colorBeta);
 }
 
 .header {
@@ -105,6 +106,10 @@ body {
     font-family: inherit;
     border-color: transparent;
     outline: none;
+}
+
+.search--icon {
+    cursor: pointer
 }
 
 .user--box {
